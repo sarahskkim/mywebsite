@@ -1,0 +1,23 @@
+*{
+  border: 1px solid orange !important;
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+}
+.col-1{
+  width: 50%;
+}
+.col-2{
+  width: 50%;
+}
+.portfolio-item{
+	text-align: center;
+}
